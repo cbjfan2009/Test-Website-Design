@@ -1,0 +1,64 @@
+/* page1.css */
+.navbar {
+    display: inline;
+    list-style-type: none;
+    background-color: red;
+    font-color: black;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    }
+li a {  /*assign color to navbar link background*/
+  display: inline;
+  background-color: #d3d3d3;
+    }
+li a:hover {  /*navbar color and text change on mouse hover*/
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+    }
+Body {
+    background-image: url('../346.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    }
+#page2body {
+    background-image: url('../306.jpg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    }
+
+H1 {
+    color: #00ff00;
+    text-align: center;
+    font-family: "Times New Roman", Arial;
+    font-size: 50;
+    font-weight: bold;
+    border: double;
+    border-width: 10px 20px 10px 20px;
+    border-color: black;
+    text-indent: 20px;
+    }
+#topbox {
+    background-color: #15ff00;
+    margin: 25px;
+    padding: 10px;
+    font-weight: bold;
+    width: 300px;
+    text-align: justify;
+    }
+#midbox {
+    background-color: #ffe900;
+    margin: 25px;
+    padding: 10px;
+    font-weight: bold;
+    width: 300px;
+    margin: 50px 400px;
+    outline: dashed 10px;
+    }
+#livinglocations {
+    background-color: red;
+    border: 3px solid black;
+
+    }
